@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Lovelo';
+    src: local('Lovelo'), url('./lovelo.woff2') format('woff2'),
+         url('./lovelo.woff') format('woff'),
+         url('./lovelo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

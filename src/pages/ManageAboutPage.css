@@ -1,0 +1,54 @@
+/* Form group with label and input on the same line */
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 1rem; /* Space between each form group */
+}
+
+/* Style for the label */
+.form-label {
+    margin-right: 0.5rem; /* Space between the label and the input */
+    white-space: nowrap; /* Ensure the label text does not wrap */
+    font-family: 'Lovelo', sans-serif;
+    padding: 0.5rem 1rem; /* Space inside the box */
+    border: 2px solid #635D5D; /* Border to create the box effect */
+    border-radius: 5px; /* Rounded corners for the boxes */
+    background: #635D5D !important;
+    color: white; /* Default text color */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for colors */
+}
+
+/* Full width for input */
+.form-control {
+    flex-grow: 1; /* Allow input to fill the remaining space */
+    margin-left: 0.5rem; /* Space between the label and the input */
+}
+
+/* You might need to adjust the styling for other form elements like textareas and file inputs */
+.form-control-textarea, .form-control-file {
+    flex-grow: 1; /* Allow to fill the remaining space */
+}
+
+/* Adjust the button to fit in the new layout if necessary */
+.btn-save-changes {
+    width: auto; /* Adjust the width as needed */
+    margin-top: 1rem; /* Space above the button */
+}
+
+.input.form-control{
+    background-color: #fff;
+    border: 2px solid #635D5D !important;
+    color: #000;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.text-center{
+    font-family: 'Lovelo', sans-serif;
+    background-color: #fff;
+    color: #000;
+    padding: 0.375rem 0.35rem;
+    border-radius: 0.25rem;
+}
+

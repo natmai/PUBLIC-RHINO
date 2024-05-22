@@ -1,0 +1,47 @@
+/* NavbarComponent.css */
+.navbar {
+    padding: 1rem 0 2rem; /* Space above and increased padding on the bottom */
+    background-color: black;
+    margin-bottom: 0; /* Remove default margin-bottom if it exists */
+  }
+  
+  .navbar-brand {
+    font-size: 5rem; /* Large font size for the title */
+    font-family: 'Lovelo', sans-serif;
+    padding-bottom: 1rem; /* Space between title and nav links */
+  }
+  
+  .nav-link {
+    font-size: 1.2rem; /* Size of the nav link text */
+    font-family: 'Lovelo', sans-serif;
+    padding: 0.5rem 1rem; /* Space inside the box */
+    margin: 0 0.5rem; /* Space between the boxes */
+    border: 2px solid #635D5D; /* Border to create the box effect */
+    border-radius: 5px; /* Rounded corners for the boxes */
+    background: #635D5D;
+    color: white; /* Default text color */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for colors */
+  }
+  
+  .nav-link:hover {
+    background-color: #D9D9D9; /* Background color on hover */
+    border-color: #D9D9D9; /* Border color on hover */
+    color: #000; /* Text color on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar {
+      padding-top: 0.5rem;
+    }
+  
+    .navbar-brand {
+      font-size: 1.5rem; /* Smaller font size for the title on small screens */
+    }
+  
+    .nav-link {
+      padding: 0.3rem 0.6rem; /* Adjust padding for smaller screens */
+      margin: 0 0.3rem; /* Adjust margin for smaller screens */
+    }
+  }
+  

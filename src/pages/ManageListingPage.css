@@ -1,0 +1,88 @@
+.custom-button,
+.custom-file-upload,
+.custom-label-button.btn-primary,
+.custom-label-button.btn-primary:hover,
+.custom-label-button.btn-primary:active,
+.custom-label-button.btn-primary:focus,
+.custom-label-button {
+    background-color: #635D5D; /* Dark background */
+    color: white; /* Light text */
+    padding: 0.5rem 1rem; /* Spacing inside the button */
+    border: none; /* No border - removed duplicated border: none; */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Text size */
+    font-family: 'Lovelo', sans-serif; /* Custom font */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    cursor: pointer; /* The default cursor */
+    display: inline-block; /* Inline-block for label */
+    margin: 0; /* Reset margin for modal-title */
+    text-align: center !important; /* Center text for modal-title */
+    width: 100%; /* Full width for modal-title */
+}
+
+.custom-button:hover,
+.custom-file-upload:hover {
+    background-color: #D9D9D9; /* Light background on hover */
+    color: #000; /* Dark text on hover */
+    border-color: #D9D9D9; /* Border color for custom-file-upload on hover */
+}
+
+.custom-form-input,
+.custom-file-upload-input,
+.custom-form-input::placeholder,
+.custom-file-upload-input::placeholder {
+    background-color: #fff; /* White background for the input */
+    border: 2px solid #635D5D; /* Grey border */
+    color: #000; /* Text color */
+    padding: 0.375rem 0.75rem; /* Padding to match the buttons */
+    border-radius: 0.25rem; /* Rounded corners */
+}
+
+.custom-form-input:focus,
+.custom-file-upload-input:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 0.2rem rgba(99, 93, 93, 0.25); /* Custom focus style */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; /* Adjust as needed, but keep proportional */
+    object-fit: cover; /* Cover the area */
+}
+
+.card-body,
+.card-title,
+.card-text {
+    font-family: 'Lovelo', sans-serif;
+    color: white !important;
+    text-align: center !important; /* Center text for modal-title */
+
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 767.98px) {
+    .col-md-4 {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px; /* Or your preferred maximum width */
+    }
+}
+
+.card-body:hover,
+.card-title:hover,
+.card-text:hover,
+.card-footer:hover {
+    font-family: 'Lovelo', sans-serif;
+    color: black !important;
+    text-align: center !important; /* Center text for modal-title */
+    background-color: #D9D9D9!important;
+}

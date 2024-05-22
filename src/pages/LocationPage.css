@@ -1,0 +1,66 @@
+.location-page {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .location-title {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .location-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .location-image {
+    width: 100%; /* Makes sure all images are the same width */
+    margin-bottom: 1rem; /* Space between images */
+  }
+  
+  .location-description {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .tag-button {
+    background-color: #F0F0F0; /* Light grey background */
+    color: #000000; /* Black text color */
+    border: none; /* No border */
+    padding: 5px 10px; /* Top and bottom padding 5px, left and right padding 10px */
+    margin-right: 5px; /* Margin to the right for spacing between buttons */
+    cursor: pointer; /* Cursor indicates it's clickable */
+    border-radius: 5px; /* Rounded corners */
+    font-family: 'Arial', sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, color 0.3s; /* Transition for hover effect */
+  }
+  
+  .tag-button:hover {
+    background-color: #D9D9D9; /* Lighter grey on hover */
+    color: #000000; /* Maintain black text color on hover */
+  }
+  
+  .tag-label {
+    display: inline-block;
+    background-color: #635D5D; /* Light grey background */
+    color: #fff; /* Black text color */
+    font-family: 'Lovelo', sans-serif !important;
+    padding: 5px 10px; /* Top and bottom padding 5px, left and right padding 10px */
+    margin-right: 5px; /* Margin to the right for spacing between labels */
+    border-radius: 5px; /* Rounded corners */
+    font-family: 'Arial', sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    margin-bottom: .25rem;
+    margin-top: .25rem;
+    /* Add any other styles you wish to include for your labels */
+  }
+  
+
+
+  .image-gallery-image {
+    max-width: 100%; /* Adjust this value to fit your needs */
+    height: auto; /* This maintains the aspect ratio */
+}

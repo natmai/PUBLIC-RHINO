@@ -1,0 +1,74 @@
+/* LocationCard.css */
+.card {
+    transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    border: none !important;
+
+    /* Other styling rules for your card */
+}
+
+.card:hover {
+    background-color: #f2f2f2; /* Lighter background color on hover */
+    border: none !important;
+
+    transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 .5rem 1.25rem rgba(0, 0, 0, 0.8); /* Shadow for a 'lifted card' effect */
+}
+
+.card-link {
+    text-decoration: none;
+    color: white; /* Ensures text color isn't changed by the link */
+  }
+  
+  .card-title {
+    text-align: center;
+    font-family: 'Lovelo', sans-serif;
+    color: white !important;
+    font-size: 2rem !important;/* Example size; adjust as needed */
+
+  }
+  
+  .card-body {
+    background: #635D5D;
+  }
+  
+  .card-footer {
+    text-align: center;
+    font-family: 'Lovelo', sans-serif !important; /* Ensures font-family overrides Bootstrap */
+    background-color: #635D5D !important; /* Ensures background color overrides Bootstrap */
+    color: white !important; /* Ensures text color overrides Bootstrap */
+    border-top: none !important; /* Removes border-top if you don't want it */
+    padding: 1rem !important; /* Adjust padding as needed */
+    border-radius: 0 0 0.25rem 0.25rem !important; /* Adjust border-radius as needed */
+    font-size: 1rem !important;/* Example size; adjust as needed */
+
+}
+
+.card-img-top {
+  height: 200px !important; /* Fixed height for all images */
+  object-fit: cover !important; /* Cover the space of the container */
+  object-position: center !important; /* Center the image within the element */
+  width: 100% !important; /* Ensure image width is always 100% of the card */
+}
+
+
+.card-button {
+  /* initial button styles */
+  background-color: #635D5D; /* example background color */
+  color: white; /* text color */
+  border: none !important;
+  /* other styles */
+}
+
+
+.card-body:hover,
+.card-title:hover,
+.card-text:hover,
+.card-footer:hover {
+    font-family: 'Lovelo', sans-serif;
+    color: black !important;
+    text-align: center !important; /* Center text for modal-title */
+    background-color: #D9D9D9!important;
+    border: none !important;
+
+}
+
