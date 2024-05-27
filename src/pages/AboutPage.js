@@ -42,13 +42,11 @@ const AboutPage = () => {
       <section className="profile-section">
         <img src={aboutMeData.contactImage} alt="Profile" className="profile-picture"/>
         <h2 className="profile-name">{`${aboutMeData.firstName} ${aboutMeData.lastName}`}</h2>
-        {/* Adjusted the button to be a link for contact; you might need to adjust its styling */}
-        <a href={aboutMeData.contactLink} className="contact-button">Contact Me!</a>
-      </section>
-      <section className="about-section">
-        <h2 className="about-title">About Me</h2>
-        <p className="about-content">{aboutMeData.aboutDescription}</p>
-      </section>
+        <a href={`mailto:${aboutMeData.contactLink}`} className="contact-button">Contact Me!</a>      </section>
+        <section className="about-section">
+  <h2 className="about-title">About Me</h2>
+  <p className="about-content" dangerouslySetInnerHTML={{ __html: aboutMeData.aboutDescription.replace(/\n/g, '<br>') }}></p>
+</section>
     </div>
   );
 };

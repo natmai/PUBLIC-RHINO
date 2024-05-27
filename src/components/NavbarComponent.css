@@ -9,6 +9,7 @@
     font-size: 5rem; /* Large font size for the title */
     font-family: 'Lovelo', sans-serif;
     padding-bottom: 1rem; /* Space between title and nav links */
+    letter-spacing: 0.1em; /* Increase letter spacing */
   }
   
   .nav-link {
